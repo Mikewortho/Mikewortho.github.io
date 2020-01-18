@@ -53,4 +53,4 @@ We found that money plays a crucial part in a club’s performance. The ‘Giant
 There were quite a few football players didn’t continue their career after 26 years old. This is quite a cruel number which reflects how competitive this profession is. But there was also player even more than 40 years old. True love prevails!
 Ball control, reaction, and age are the main attributes determine a player’s potential. So if you are playing FIFA 19 and try to get some potential players for your own club, focus on these three.
 
-To see more about this analysis, see the link to my Github available here.
+To see more about this analysis and the code - check my github :)
