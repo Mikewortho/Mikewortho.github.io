@@ -5,7 +5,7 @@ date: 2020-01-18 21:32:20 +0000
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
 img: fifa.jpeg # Add image post (optional)
 fig-caption: # Add figcaption (optional)
-tags: [Holidays, Hawaii]
+tags: [FIFA,Analysis,Sports]
 ---
 FIFA 19 is a football simulation video game developed by EA Vancouver as part of Electronic Arts’ FIFA series. As a football fan and game player, I wrote this blog post to perform some data exploration on FIFA 19 Player Dataset from Kaggle.
 The dataset contains information of all 18207 players from the latest edition FIFA 19. There are 89 attributes including personal information like age, name, nationality, photo, club, wage, etc, and also player skill information like ball control, dribbling, crossing, finishing, GK skills and etc.
@@ -17,6 +17,8 @@ The dataset contains information of all 18207 players from the latest edition FI
 First I would like to look at the data at the clubs’ level. There is a total of 651 clubs collected and on average 27.6 players for each club. So which of the clubs are richest among them and which are more cost-effective？
 To find answers to the first question, we can take a look at the wage/potential ratio for each club. The higher the ratio is, the more willingly a club spends money on high potential players.
 On average, clubs spend €140 on wage for every potential of their players. So for a common player with 50 potential, his club will pay €7000 every year.
+
+![I and My friends]({{site.baseurl}}/assets/img/speding wage top 10.png)
 
 ## Plaid ramps kitsch woke pork belly
 90's yr crucifix, selvage 8-bit listicle forage cliche shoreditch hammock microdosing synth. Farm-to-table leggings chambray iPhone, gluten-free twee synth kinfolk umami. Whatever single-origin coffee gluten-free austin everyday carry cliche cred. Plaid ramps kitsch woke pork belly organic. Trust fund whatever coloring book kombucha brooklyn. Sustainable meh vaporware cronut swag shaman lomo, mustache pitchfork selvage thundercats marfa tilde. Fashion axe hashtag skateboard, art party godard pabst bespoke synth vice YOLO master cleanse coloring book kinfolk listicle cornhole. Try-hard mixtape umami fanny pack man bun gastropub franzen tbh. Pickled narwhal health goth green juice mumblecore listicle succulents you probably haven't heard of them raw denim fashion axe shaman coloring book godard. Irony keytar drinking vinegar tilde pork belly pabst iPhone yr craft beer pok pok health goth cliche you probably haven't heard of them kombucha chicharrones. Direct trade hella roof party chia. Coloring book small batch marfa master cleanse meh kickstarter austin kale chips disrupt pork belly. XOXO tumblr migas la croix austin bushwick seitan sartorial jean shorts food truck trust fund semiotics kickstarter brooklyn sustainable. Umami knausgaard mixtape marfa. Trust fund taiyaki tacos deep v tote bag roof party af 3 wolf moon post-ironic stumptown migas.
