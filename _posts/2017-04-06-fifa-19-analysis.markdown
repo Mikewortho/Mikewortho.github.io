@@ -29,7 +29,7 @@ But it’s obvious that ‘Giant’ clubs are willing to pay much more on their 
 But when I take a look at bottom of ratio list, it’s a surprise that some club names are quite familiar to us. Like AEK Athens, Dynamo Kyiv, Shakhtar Donetsk, they all made impressive performance on UEFA Champions League. My guess is that bad economic situation in their countries leads to low wage for players.
 
 ## 2. What’s the age distribution like? How is it related to the player’s overall rating?
-
+![Age Distributions]({{site.baseurl}}/assets/img/agedistribution.jpeg)
 
 From the above plot, we can see that most players are between 20–26 years old. And players’ number starts to decrease after 26 years old and speed up after 30. The reason behind this could be that many young players didn’t get enough opportunities to prove themselves and give up their dream as a football player.
 
@@ -38,6 +38,8 @@ There are also quite a few numbers of players with age over 37, 38 years old. Th
 
 ## 3. How is a player’s skill set influence his potential? Can we predict a player’s potential based on his skills’ set?
 At last, I wonder if there might factors that determine a player’s potential so I built a model to help us in predict the player’s potential. I have used all of the player’s skill features as well as features like age. The model performs quite well since the r2 score is 0.87 on the test set.
+
+![Coefficients]({{site.baseurl}}/assets/img/coefficients.jpeg)
 
 As shown above, the potential of a player is mainly determined by his ball control, reaction, and age. Young players with excellent ball control and fast reactions tend to give us an outstanding performance in a football match.
 
@@ -49,27 +51,3 @@ There were quite a few football players didn’t continue their career after 26 
 Ball control, reaction, and age are the main attributes determine a player’s potential. So if you are playing FIFA 19 and try to get some potential players for your own club, focus on these three.
 
 To see more about this analysis, see the link to my Github available here.
-
-
-
-
-
-
-
-
-
-
-
-
->Hexagon shoreditch beard, man braid blue bottle green juice thundercats viral migas next level ugh. Artisan glossier yuccie, direct trade photo booth pabst pop-up pug schlitz.
-
-Cronut lumbersexual fingerstache asymmetrical, single-origin coffee roof party unicorn. Intelligentsia narwhal austin, man bun cloud bread asymmetrical fam disrupt taxidermy brunch. Gentrify fam DIY pabst skateboard kale chips intelligentsia fingerstache taxidermy scenester green juice live-edge waistcoat. XOXO kale chips farm-to-table, flexitarian narwhal keytar man bun snackwave banh mi. Semiotics pickled taiyaki cliche cold-pressed. Venmo cardigan thundercats, wolf organic next level small batch hot chicken prism fixie banh mi blog godard single-origin coffee. Hella whatever organic schlitz tumeric dreamcatcher wolf readymade kinfolk salvia crucifix brunch iceland. Literally meditation four loko trust fund. Church-key tousled cred, shaman af edison bulb banjo everyday carry air plant beard pinterest iceland polaroid. Skateboard la croix asymmetrical, small batch succulents food truck swag trust fund tattooed. Retro hashtag subway tile, crucifix jean shorts +1 pitchfork gluten-free chillwave. Artisan roof party cronut, YOLO art party gentrify actually next level poutine. Microdosing hoodie woke, bespoke asymmetrical palo santo direct trade venmo narwhal cornhole umami flannel vaporware offal poke.
-
-* Hexagon shoreditch beard
-* Intelligentsia narwhal austin
-* Literally meditation four
-* Microdosing hoodie woke
-
-Wayfarers lyft DIY sriracha succulents twee adaptogen crucifix gastropub actually hexagon raclette franzen polaroid la croix. Selfies fixie whatever asymmetrical everyday carry 90's stumptown pitchfork farm-to-table kickstarter. Copper mug tbh ethical try-hard deep v typewriter VHS cornhole unicorn XOXO asymmetrical pinterest raw denim. Skateboard small batch man bun polaroid neutra. Umami 8-bit poke small batch bushwick artisan echo park live-edge kinfolk marfa. Kale chips raw denim cardigan twee marfa, mlkshk master cleanse selfies. Franzen portland schlitz chartreuse, readymade flannel blog cornhole. Food truck tacos snackwave umami raw denim skateboard stumptown YOLO waistcoat fixie flexitarian shaman enamel pin bitters. Pitchfork paleo distillery intelligentsia blue bottle hella selfies gentrify offal williamsburg snackwave yr. Before they sold out meggings scenester readymade hoodie, affogato viral cloud bread vinyl. Thundercats man bun sriracha, neutra swag knausgaard jean shorts. Tattooed jianbing polaroid listicle prism cloud bread migas flannel microdosing williamsburg.
-
-Echo park try-hard irony tbh vegan pok pok. Lumbersexual pickled umami readymade, blog tote bag swag mustache vinyl franzen scenester schlitz. Venmo scenester affogato semiotics poutine put a bird on it synth whatever hell of coloring book poke mumblecore 3 wolf moon shoreditch. Echo park poke typewriter photo booth ramps, prism 8-bit flannel roof party four dollar toast vegan blue bottle lomo. Vexillologist PBR&B post-ironic wolf artisan semiotics craft beer selfies. Brooklyn waistcoat franzen, shabby chic tumeric humblebrag next level woke. Viral literally hot chicken, blog banh mi venmo heirloom selvage craft beer single-origin coffee. Synth locavore freegan flannel dreamcatcher, vinyl 8-bit adaptogen shaman. Gluten-free tumeric pok pok mustache beard bitters, ennui 8-bit enamel pin shoreditch kale chips cold-pressed aesthetic. Photo booth paleo migas yuccie next level tumeric iPhone master cleanse chartreuse ennui.
