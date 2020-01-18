@@ -789,7 +789,7 @@ img {
   max-width: 100%;
   vertical-align: middle;
   display: inline-block;
-  text-align: center;
+  padding-left: 1.1rem;;
 }
 
 img + em {
