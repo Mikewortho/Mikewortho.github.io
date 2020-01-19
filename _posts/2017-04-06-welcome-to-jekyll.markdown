@@ -25,31 +25,31 @@ On further investigation, I find that there are null values for userId and sessi
 # Feature Engineering
 I came up with following 7 features, to create our prediction model
 
-1. Time spent by users of both groups listening songs
+1.Time spent by users of both groups listening songs
 
 Churned =1 , Non-Churned=0
 
-2. Number of thumbs up
+2.Number of thumbs up
 
 Average Number of Thumbs up
 
-3. Number of thumbs down
+3.Number of thumbs down
 
 Average number of thumbs down
 
-4. Number of songs played
+4.Number of songs played
 
 Average number of songs played
 
-5. Number of songs listened per session per user
+5.Number of songs listened per session per user
 
 Songs played per session
 
-6. Number of days since registration
+6.Number of days since registration
 
 Average number of active days
 
-7. Number of added friends
+7.Number of added friends
 
 Average number of added friends
 
