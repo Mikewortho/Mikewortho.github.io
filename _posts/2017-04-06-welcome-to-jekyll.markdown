@@ -30,7 +30,7 @@ As we can see from the above boxplots, differences emerge between the two groups
 
 
 # Feature Engineering
-I came up with following 7 features, to create our prediction model
+Upon conclusion of the exploratory data analysis I decided that the following 7 features would allow us to create a powerful predictive model; as follows:
 
 1.Time spent by users of both groups listening songs
 
