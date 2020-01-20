@@ -110,7 +110,17 @@ I had anticipated a straight shootout between Logistic Regression and Random For
 
 As we can see this has been proven with the Random Forest Classifier performing the best - with an F1 Score of 0.858. As such we chose this model to move forward for hyperparameter tuning.
 
+We chose to tune on the following parameters:
+* Max Depth = [5,8]
+* Min Instances Per Node = [1,4]
+* Num Trees = [20,40]
+
 ![Hyper]({{site.baseurl}}/assets/img/hyper.jpeg)
+
+As you can see from the above code snippet - the optimal model suggested:
+* Max Depth = [5]
+* Min Instances Per Node = [1]
+* Num Trees = [20]
 
 
 # Conclusion
