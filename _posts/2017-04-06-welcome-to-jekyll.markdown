@@ -54,21 +54,26 @@ I came up with following 7 features, to create our prediction model
 
 ![PrintSchema EDA]({{site.baseurl}}/assets/img/churn5.jpg)
 
+>Here we would expect the non-churned user to have recorded a significantly higher number of plays. The theory being that higher engagement = higher product affinity = more chance of remaning an active subscriber.
+
 5.Number of songs listened per session per user
 
 ![PrintSchema EDA]({{site.baseurl}}/assets/img/churn6.jpg)
+
+>Much akin to the previous feature - the more time per session indicates the user is having fun with the product each and every time they use it. Higher affinity = more chance of remaning an active subscriber.
 
 6.Number of days since registration
 
 ![PrintSchema EDA]({{site.baseurl}}/assets/img/churn7.jpg)
 
-7.Average number of active days
+>This I beleive would be interesting to see - as it would be potentially be quite a powerful indicator for our models if churn users have such stark differnce to non-churn users. 
+
+7.Number of added friends
 
 ![PrintSchema EDA]({{site.baseurl}}/assets/img/churn8.jpg)
 
->Much akin to the first engineered feature. I beleive this will be a very indicative feature, the more active days shows a higher affinity for the product from the user. As such high affinity to a product would usually indicate non-churn, in contrast low levels of affinity would indicate churn.
+>Much akin to the first engineered feature. I beleive this will be a very indicative feature, the more added friends indicates a willingness to share their excitement about the product with those closest to them. Thus shows a higher affinity for the product from the user. As such high affinity to a product would usually indicate non-churn, in contrast low levels of affinity would indicate churn.
 
-Looking at the above features, we can observe significant behavioral differences between the churn and non-churn group.
 
 # Modelling
 After creating the features, I aggregated all of them at userId level. Then , I split the dataset into training and validation set.
