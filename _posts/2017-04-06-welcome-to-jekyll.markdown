@@ -24,6 +24,9 @@ In the data preprocessing step, I find explore the meaning of every column and s
 
 On further investigation, I find that there are null values for userId and sessionId columns. These values were null because the user was either logged out or not registered on the app. Null values for these columns are not helpful in our analysis, so I remove them.Further, I analysed various behavioral differences between the churn and non-churn user group. This was an important step before finalizing the features that I would be using for modelling purpose.
 
+![Churn Or Not]({{site.baseurl}}/assets/img/churnvnchurn.jpg)
+
+
 # Feature Engineering
 I came up with following 7 features, to create our prediction model
 
