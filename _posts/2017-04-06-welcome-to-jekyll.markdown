@@ -110,6 +110,8 @@ I had anticipated a straight shootout between Logistic Regression and Random For
 
 As we can see this has been proven with the Random Forest Classifier performing the best - with an F1 Score of 0.858. As such we chose this model to move forward for hyperparameter tuning.
 
+![Hyper]({{site.baseurl}}/assets/img/hyper.jpeg)
+
 
 # Conclusion
 During this project we have worked through a variety of issues, loading and cleaning the dataset - checking for missing and null values and dealing with them appropirately. We then performed our exploratory data analysis which included a correlation analysis of the variables allowing us to percieve which variables would would have significant impact within our final model choices. Furthermore, we directly compared variables of 'churn' and 'non-churn' users to illustrate key variables which would be useful during our feature engineering. From this we managed to engineer 7 variables ready to input into the models. After lengthy research into viable classification models it was decided a direct comparison of 3 models would be an interesting choice: Logistic Regression, Decision Tree Classifer and Random Forest Classifier were selected. Of the 3 base models the Random Forest Classifier performed the best and as such was chosen to tune the hyperparameters further. Thus providing us with our final Random Forest Classifier.
