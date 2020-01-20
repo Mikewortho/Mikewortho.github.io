@@ -76,10 +76,16 @@ Upon conclusion of the exploratory data analysis I decided that the following 7 
 
 
 # Modelling
-After creating the features, I aggregated all of them at userId level. Then , I split the dataset into training and validation set.
-I split the data into 2 parts : 90% for training and 10% for validation
-Then I used the Cross-Validator method because it helps us try out various hyper-parameters and automatically select the best ones.
-I trained 3 models : Logistic Regression, Decision Tree Classifier and Random Forest Classifier.
+After creating the features, I aggregated all of them at userId level. Next, before training the model, it was necessary to put all the features into vectors. When putting data into vectors, it was possible that some features may be string types and as such should be checked and converted to float if necessary.
+
+Furthermore, although it does not affect tree based models, standardization is important for linear models. As such I decided to standardize the data.
+
+Then , the data was ready to be split into a training and validation set. 90% for training and 10% for validation.
+Finally the data was ready to be presented to our three chosen classification models:
+Logistic Regression, Decision Tree Classifier and Random Forest Classifier.
+
+>The Cross-Validator method was implemented within each - allowing us the functionality  out various hyper-parameters and automatically select the best fit.
+
 
 # Evaluation
 Among the 3 models I trained , following are the obtained F1 score for each model. In our dataset, churned users(23%) are lesser in number than non-churned users(77%). Using accuracy as evaluation metric, will not give a good performance, because any model predicting “no-churn” will have good accuracy . Instead, I use F1 score as the evaluation metric. F1 score gives a balanced score between precision and recall. F1 score is defined as :
