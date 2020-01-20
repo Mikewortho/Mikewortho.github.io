@@ -87,23 +87,29 @@ Logistic Regression, Decision Tree Classifier and Random Forest Classifier.
 >The Cross-Validator method was implemented within each - allowing us the functionality to test out various hyper-parameters and automatically select the best fit.
 
 
-# Evaluation
-Among the 3 models I trained , following are the obtained F1 score for each model. In our dataset, churned users(23%) are lesser in number than non-churned users(77%). Using accuracy as evaluation metric, will not give a good performance, because any model predicting “no-churn” will have good accuracy . Instead, I use F1 score as the evaluation metric. F1 score gives a balanced score between precision and recall. F1 score is defined as :
+# Results
+In our dataset, churned users(23%) are lesser in number than non-churned users(77%). Due to the imblanaced nature of the data using accuracy as an evaluation metric, will not give good performance, because the models will tend to over-fit to the “non-churn” category. Instead, a more relevant evaluation metric is known as the F1 score.The F1 score gives a balanced score between precision and recall. It can be defined as follows:
 
 ![PrintSchema EDA]({{site.baseurl}}/assets/img/churn9.jpg)
 
-F1 score
-Logistic Regression Model ( F1 Score : 0.766)
+Among the 3 models, the following are the obtained F1 score for each model.
+
+Logistic Regression ( F1 Score : 0.766)
 
 ![PrintSchema EDA]({{site.baseurl}}/assets/img/churn10.jpg)
 
-Decision Tree Classifier( F1 score : 0.642 )
+Decision Tree Classifier ( F1 score : 0.642 )
 
 ![PrintSchema EDA]({{site.baseurl}}/assets/img/churn11.jpg)
 
 Random Forest Classifier (F1 score : 0.858)
 
 ![PrintSchema EDA]({{site.baseurl}}/assets/img/churn12.jpg)
+
+I had anticipated a straight shootout between Logistic Regression and Random Forest Classifier for this particular project. This is due to the fact that we would have expected the random forest classifier to beat the decison tree classifier as decision trees are quite prone to overfitting and on an imbalanced dataset this presents issues. Ideally, we would like to minimize both error due to bias and error due to variance. Enter random forests. Random forests mitigate this problem well. A random forest is simply a collection of decision trees whose results are aggregated into one final result. Their ability to limit overfitting without substantially increasing error due to bias is why they are such powerful models.
+
+As we can see this has been proven with the Random Forest Classifier performing the best - with an F1 Score of 0.858. As such we chose this model to move forward for hyperparameter tuning.
+
 
 # Conclusion
 During this project we have worked through a variety of issues, loading and cleaning the dataset - checking for missing and null values and dealing with them appropirately. We then performed our exploratory data analysis which included a correlation analysis of the variables allowing us to percieve which variables would would have significant impact within our final model choices. Furthermore, we directly compared variables of 'churn' and 'non-churn' users to illustrate key variables which would be useful during our feature engineering. From this we managed to engineer 7 variables ready to input into the models. After lengthy research into viable classification models it was decided a direct comparison of 3 models would be an interesting choice: Logistic Regression, Decision Tree Classifer and Random Forest Classifier were selected. Of the 3 base models the Random Forest Classifier performed the best and as such was chosen to tune the hyperparameters further. Thus providing us with our final Random Forest Classifier.
