@@ -100,13 +100,16 @@ Random Forest Classifier (F1 score : 0.858)
 ![PrintSchema EDA]({{site.baseurl}}/assets/img/churn12.jpg)
 
 # Conclusion
-Finally, I decided to go with Random Forest Classifier model as it gave the best F1 score. I also looked at the feature importances. The most important feature turned out to be : Number of active days.
+During this project we have worked through a variety of issues, loading and cleaning the dataset - checking for missing and null values and dealing with them appropirately. We then performed our exploratory data analysis which included a correlation analysis of the variables allowing us to percieve which variables would would have significant impact within our final model choices. Furthermore, we directly compared variables of 'churn' and 'non-churn' users to illustrate key variables which would be useful during our feature engineering. From this we managed to engineer 7 variables ready to input to the models. After lengthy research into viable classification models it was decided a direct comparison of 3 models would be an interesting choice: Logistic Regression, Decision Tree Classifer and Random Forest Classifier were selected. Of the 3 base models the Random Forest Classifier performed the best and as such was chosen to tune the hyperparameters further. Thus providing us with our final Random Forest Classifier.
+
+Upon final exploration of the model coefficients the most powerful feature turned out to be: Number of active days. Something we had suspected in our exploratory data analysis.
 
 ![PrintSchema EDA]({{site.baseurl}}/assets/img/churn13.jpg)
 
-This model can be further improved by:
-* Creating more number of features
+This model can be used by the company to flag users who are more likely to churn and thus ,entice them with special offers and discounts in order to retain them. The above analysis can be more robust when used on the complete dataset. Moreover, adding more feautures may or may not improve our analysis, this is another avenue for exploration. To formally conclude, I enjoyed all aspects of this project, data preprocessing, exploratory analysis, feature engineering, modelling and then hyperparameter tuning. During this project I have enhanced my skillset with PySpark. There is also still many aspects to improve or further investigate - why not explore some of the below:
+
+* Creating more features
 * Training on a larger dataset, by deploying on cloud(AWS, IBM cloud)
-* Tuning more number of hyperparameters
+* Tuning more variations of hyperparameters
 
 For complete analysis visit: https://github.com/Mikewortho/SparkifyCustomerChurn :)
