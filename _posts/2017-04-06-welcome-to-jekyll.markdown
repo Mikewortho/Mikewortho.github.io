@@ -84,7 +84,7 @@ Then , the data was ready to be split into a training and validation set. 90% fo
 Finally the data was ready to be presented to our three chosen classification models:
 Logistic Regression, Decision Tree Classifier and Random Forest Classifier.
 
->The Cross-Validator method was implemented within each - allowing us the functionality  out various hyper-parameters and automatically select the best fit.
+>The Cross-Validator method was implemented within each - allowing us the functionality to test out various hyper-parameters and automatically select the best fit.
 
 
 # Evaluation
