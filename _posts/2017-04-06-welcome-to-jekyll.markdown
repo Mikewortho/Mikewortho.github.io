@@ -51,7 +51,7 @@ I came up with following 7 features, to create our prediction model
 
 ![PrintSchema EDA]({{site.baseurl}}/assets/img/churn7.jpg)
 
-Average number of active days
+7.Average number of active days
 
 ![PrintSchema EDA]({{site.baseurl}}/assets/img/churn8.jpg)
 
@@ -87,9 +87,10 @@ Finally, I decided to go with Random Forest Classifier model as it gave the best
 ![PrintSchema EDA]({{site.baseurl}}/assets/img/churn13.jpg)
 
 This model can be further improved by:
-Creating more number of features
-Training on a larger dataset, by deploying on cloud(AWS, IBM cloud)
-Tuning more number of hyperparameters
+* Creating more number of features
+* Training on a larger dataset, by deploying on cloud(AWS, IBM cloud)
+* Tuning more number of hyperparameters
+
 For complete analysis visit:
 
 
