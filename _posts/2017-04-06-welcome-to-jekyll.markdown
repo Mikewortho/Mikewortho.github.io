@@ -91,4 +91,4 @@ This model can be further improved by:
 * Training on a larger dataset, by deploying on cloud(AWS, IBM cloud)
 * Tuning more number of hyperparameters
 
-For complete analysis visit:
+For complete analysis visit: https://github.com/Mikewortho/SparkifyCustomerChurn :)
