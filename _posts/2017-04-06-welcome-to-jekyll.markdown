@@ -36,19 +36,19 @@ I came up with following 7 features, to create our prediction model
 
 ![PrintSchema EDA]({{site.baseurl}}/assets/img/churn2.jpg)
 
-The aforementioned is likely to be one of the most indicative features - the hypothesis here being the more the user listens to music and makes use of their subscription service the more likely they are to remain.
+>The aforementioned is likely to be one of the most indicative features - the hypothesis here being the more the user listens to music and makes use of their subscription service the more likely they are to remain.
 
 2.Number of thumbs up
 
 ![PrintSchema EDA]({{site.baseurl}}/assets/img/churn3.jpg)
 
-With this feature it will be interesting to see if we can see a correlation between the users level of enjoyment for the artists/songs and remaining an active subscriber.
+>With this feature it will be interesting to see if we can see a correlation between the users level of enjoyment for the artists/songs and remaining an active subscriber.
 
 3.Number of thumbs down
 
 ![PrintSchema EDA]({{site.baseurl}}/assets/img/churn4.jpg)
 
-Similarly to the previous feature - if a user has a large distaste for the artists and songs he has so far heard, will this cause him to have a higher chance of leaving the streaming platform?
+>Similarly to the previous feature - if a user has a large distaste for the artists and songs he has so far heard, will this cause him to have a higher chance of leaving the streaming platform?
 
 4.Number of songs played
 
@@ -66,7 +66,7 @@ Similarly to the previous feature - if a user has a large distaste for the artis
 
 ![PrintSchema EDA]({{site.baseurl}}/assets/img/churn8.jpg)
 
-Much akin to the first engineered feature. I beleive this will be a very indicative feature, the more active days shows a higher affinity for the product from the user. As such high affinity to a product would usually indicate non-churn, in contrast low levels of affinity would indicate churn.
+>Much akin to the first engineered feature. I beleive this will be a very indicative feature, the more active days shows a higher affinity for the product from the user. As such high affinity to a product would usually indicate non-churn, in contrast low levels of affinity would indicate churn.
 
 Looking at the above features, we can observe significant behavioral differences between the churn and non-churn group.
 
