@@ -142,3 +142,5 @@ This model can be used by the company to flag users who are more likely to churn
 * Tuning more variations of hyperparameters
 
 For complete analysis visit: https://github.com/Mikewortho/SparkifyCustomerChurn :)
+
+<a href='https://ko-fi.com/N4N31LFEY' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://cdn.ko-fi.com/cdn/kofi1.png?v=2' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
