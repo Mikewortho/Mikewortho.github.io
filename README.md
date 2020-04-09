@@ -2,4 +2,4 @@
 
 Personal portfoilio / blog / website
 
-<script type='text/javascript' src='https://ko-fi.com/widgets/widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Buy me a coffee', '#29abe0', 'N4N31LFEY');kofiwidget2.draw();</script> 
+<a href='https://ko-fi.com/N4N31LFEY' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://cdn.ko-fi.com/cdn/kofi1.png?v=2' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
